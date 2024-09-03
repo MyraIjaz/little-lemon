@@ -1,11 +1,12 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-
+import Logo from "../icons_assets/Logo.svg"
 const Footer = () => {
   return (
-    <footer>
+    <div className="container">
+       <footer>
         <div className='grid-item'>
-          <img src="./icon_assets/Logo.svg" />
+          <img src={Logo} />
         </div>
         <div className='grid-item'>
           <h3 className="footer-heading">Doormat <br/>Navigation</h3>
@@ -35,6 +36,8 @@ const Footer = () => {
          </ul>
         </div>
     </footer>
+    </div>
+   
   )
 }
 

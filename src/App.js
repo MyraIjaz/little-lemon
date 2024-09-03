@@ -1,7 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Nav from './Nav';
-import Footer from './Footer';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import Main from './components/Main';
+import Header from './components/Header';
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
    <Route path="/" element={<Nav/>}/>
  
     </Routes>
+    <Header/>
+    <Main/>
     <Footer/>
     </>
   );
