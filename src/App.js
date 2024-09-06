@@ -4,6 +4,8 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Main from './components/Main';
 import Header from './components/Header';
+import Testimonials from './components/Testimonials';
+import About from './components/About';
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
     </Routes>
     <Header/>
     <Main/>
+    <Testimonials/>
+    <About/>
     <Footer/>
     </>
   );

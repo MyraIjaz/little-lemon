@@ -24,7 +24,7 @@ const Nav = () => {
                 <ul>
                 <li className="nav-sub"> <Link to="/">Home</Link></li>
  
- <li className="nav-sub"> <Link to="/about">About</Link></li>
+ <li className="nav-sub"> <a href="#about">About</a></li>
 
 
    <li className="nav-sub"> <a href="#menu">Menu</a></li>

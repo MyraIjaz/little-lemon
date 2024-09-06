@@ -1,0 +1,101 @@
+/* Base styles */
+.about-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+
+}
+
+.sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 14px 0px;
+  
+   
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 100%; /* Ensure it takes full width on small screens */
+    text-align: center; /* Center align text on small screens */
+}
+
+.city_one {
+    color: rgb(55, 52, 52);
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.section-two_list {
+    list-style-type: none;
+    position: relative;
+    padding: 0; /* Reset default padding */
+    margin: 0; /* Reset default margin */
+}
+
+.section-list_one {
+    height: 206px;
+    width: 186px;
+    position: relative; /* Adjusted to relative for better responsiveness */
+    margin-bottom: -164px;
+    margin-left: 152px;/* Add margin for spacing */
+}
+
+.mario-img {
+    width: 174px;
+    height: 195px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-heading {
+        font-size: 28px;
+    }
+
+    .sections {
+        flex-direction: column;
+        margin: 30px 0;
+    }
+
+    .section-one {
+        flex: 1 1 auto;
+    }
+
+    .city_one {
+        font-size: 18px;
+    }
+
+    .section-list_one {
+        height: auto;
+        width: 100%;
+        position: relative;
+        margin: 20px 0;
+    }
+
+    .mario-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-heading {
+        font-size: 24px;
+    }
+
+    .city_one {
+        font-size: 16px;
+    }
+
+    .section-list_one {
+        width: 100%;
+        height: auto;
+    }
+
+    .mario-img {
+        width: 100%;
+        height: auto;
+    }
+}
