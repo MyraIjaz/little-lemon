@@ -17,7 +17,7 @@ const Nav = () => {
 
        <nav className="dvs-header">
         <ul className="d-flex wrap justify-between align-center">
-                <li>  <img src={Logo} alt="logo"/></li> 
+                <li> <a href="/"><img src={Logo} alt="logo"/></a> </li> 
                 <li className="dvs-header__trigger" onClick={toggleMenu}><FaBars/></li>
                 
                <li className={`dvs-header__menuItems ${isOpen ? "is-open":""} `}>

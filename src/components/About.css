@@ -45,7 +45,8 @@
 
 .mario-img {
     width: 174px;
-    height: 195px;
+    height: 137px;
+    background-size: cover;
 }
 
 /* Responsive adjustments */
@@ -97,5 +98,6 @@
     .mario-img {
         width: 100%;
         height: auto;
+        background-size: cover;
     }
 }

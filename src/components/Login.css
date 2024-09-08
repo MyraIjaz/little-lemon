@@ -1,0 +1,99 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background color for the page */
+  }
+  .background-container {
+    position: relative;
+    /* width: 100vw; */
+    height: 100vh;
+    background: url('../icons_assets/restaurant.jpg') no-repeat center center fixed;
+    background-size: cover; /* Cover the entire viewport */
+  }
+  
+  .login {
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 27px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #495E57;
+    color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); /* Adjust for perfect vertical centering */
+  }
+  
+  .login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff; /* Ensure label text is readable */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #495E57; /* Text color inside the input */
+    background-color: #ffffff; /* Background color of input fields */
+  }
+  
+  .login-btn {
+    display: block;
+    width: 33%;
+    height: 42px;
+    padding: 10px;
+    background-color: #007bff;
+    border: white solid 2px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+  
+  .error-message {
+    margin-top: 10px;
+    color: #dc3545;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .login {
+      padding: 15px;
+    }
+  
+    .login-btn {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login {
+      padding: 10px;
+    }
+  
+    .form-group input {
+      font-size: 14px;
+    }
+  
+    .login-btn {
+      font-size: 12px;
+    }
+  }
+  

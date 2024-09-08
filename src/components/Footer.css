@@ -1,0 +1,71 @@
+/* Footer.css */
+.footer-container {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr; /* 4 columns: 1 for logo, 3 for other sections */
+    gap: 20px;
+    align-items: start;
+  }
+  
+  .footer-item {
+    margin: 0;
+  }
+  
+  .footer-logo {
+    width: 120px; /* Adjust logo size as needed */
+  }
+  
+  .footer-heading {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-sub {
+    margin: 5px 0;
+  }
+  
+  .footer-sub a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-sub a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer {
+      grid-template-columns: 1fr; /* Single column layout for smaller screens */
+      text-align: center;
+    }
+    
+    .footer-logo {
+      width: 100px; /* Adjust logo size for smaller screens */
+    }
+  
+    .footer-heading {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-logo {
+      width: 80px; /* Further adjust logo size for very small screens */
+    }
+  
+    .footer-heading {
+      font-size: 0.9em;
+    }
+  }
+  
